@@ -6,7 +6,7 @@
    <remove-project name="CyanogenMod/android_frameworks_av"/>
 <!-- Hacked CM repos -->
    <project path="frameworks/av" name="KylessOpenlp/android_frameworks_av" revision="cm-12.0" />
-   <project path="frameworks/native" name=KylessOpenlp/android_frameworks_native" revision="cm-12.0" />
+   <project path="frameworks/native" name="KylessOpenlp/android_frameworks_native" revision="cm-12.0" />
 <!-- display-caf -->
    <project name="KylessOpenlp/android_hardware_qcom_display-caf_msm7x27a" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0" />
 <!-- display-legacy -->
