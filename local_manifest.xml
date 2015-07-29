@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- remove CM repos -->
+   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+   <remove-project name="CyanogenMod/android_frameworks_native"/>
+   <remove-project name="CyanogenMod/android_frameworks_av"/>
+<!-- Hacked CM repos -->
+   <project path="frameworks/av" name="KylessOpenlp/android_frameworks_av" revision="cm-12.0" />
+   <project path="frameworks/native" name=KylessOpenlp/android_frameworks_native" revision="cm-12.0" />
+<!-- display-caf -->
+   <project name="KylessOpenlp/android_hardware_qcom_display-caf_msm7x27a" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0" />
+<!-- display-legacy -->
+   <project name="KylessOpenlp/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-12.0" />
+<!-- media-caf -->
+   <project name="KylessOpenlp/android_hardware_qcom_media-caf_msm7x27a" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0" />
+<!-- qcom-common -->
+   <project name="KylessOpenlp/android_device_qcom_common" path="device/qcom/common" revision="cm-12.0" />
+<!-- device, kernel and vendor trees -->
+   <project name="KylessOpenlp/android_device_samsung_kylessopen" path="device/samsung/kylessopen" revision="cm-12.0" />
+   <project name="KylessOpenlp/caf-port" path"kernel/samsung/kylessopen" revision="master" />
+   <project name="KylessOpenlp/android_vendor_samsung_kylessopen" path="vendor/samsung/kylessopen" revision="cm-12.0" />
+</manifest>
